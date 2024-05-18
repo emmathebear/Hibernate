@@ -19,6 +19,6 @@ public class Enrollments {
 
     @JoinColumn(nullable = false)
     @ManyToOne
-    private Enrollments enrollments;
+    private Student student;
 
 }
